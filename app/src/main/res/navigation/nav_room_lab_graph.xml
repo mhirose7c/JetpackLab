@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/room_lab_nav"
+            app:startDestination="@id/roomLabMainFragment">
+
+    <fragment android:id="@+id/roomLabMainFragment" android:name="com.example.jetpacklab.room_lab.RoomLabMainFragment"
+              android:label="fragment_room_lab_main" tools:layout="@layout/fragment_room_lab_main"/>
+</navigation>
